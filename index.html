@@ -30,8 +30,34 @@
     </header>
     <div class="container">
             <div class="row">
+                <div class="card w-100">
+                    <h5 class="card-header">Days</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <table class="table table-dark">
+                        <thead class="w-100">
+                          <tr>
+                            <th scope="col">Hour</th>
+                            <th scope="col">Activity</th>
+                            <th class=text-right scope="col">Save</th> <!--maybe this wont b e text-right and itll be its own column, and make it flush with the save button icon column-->
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>"add placeholder</td>
+                            <td class="text-right">
+                                <button class="btn btn-primary badge-pill" style="width:80px;"> SAVE icon </button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
 
-      <!-- Timeblocks go here -->
+
+                <!--
+      Timeblocks go here 
         <section class="row">
             <p class="hour col-1" id="hour0">12:00am</p>
             <input type="text" class="col-10">
@@ -155,8 +181,7 @@
         <section class="row">
             <p class="hour col-1" id="hour24">12:00pm</p>
             <input type="text" class="col-10">
-        </section>
-
+        </section> -->
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
